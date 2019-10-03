@@ -1,0 +1,66 @@
+<!--pages/home/home.wxml-->
+<view class="bod">
+<view class="img">
+
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}" style="width:400px;height:270px;"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item style="width:400px;height:300px;">
+            <view class="swiper-item {{item}}" >
+            <image src="./images/哪吒1.jpg" style="width:400px;height:220px;"/>
+            </view>
+          </swiper-item>
+          <swiper-item style="width:400px;height:270px;">
+            <view class="swiper-item {{item}}" >
+            <image src="./images/哪吒2.jpg" style="width:400px;height:220px;"/>
+            </view>
+          </swiper-item>
+          <swiper-item style="width:400px;height:270px;">
+            <view class="swiper-item {{item}}" >
+            <image src="./images/哪吒3.jpg" style="width:400px;height:220px;"/></view>
+          </swiper-item>
+        </block>
+        
+      </swiper>
+    </view>
+  </view>
+</view>
+</view>
+<view class="tex">
+  <text class="big">离笑陌</text>
+    <view class="inp1">
+    <span>姓名：</span><input type="text" value="曹周"/><button class="btn">拨打</button>
+    </view>
+    <view class="inp1">
+    <span>电话：</span><input type="text" value="13796334387"/><button class="btn">复制</button>
+    </view>
+    <view class="inp1">
+    <span>QQ：</span><input type="text" value="379713499"/><button class="btn"> 复制</button>
+    </view>
+    <view class="inp1">
+    <span>职业：</span><input type="text" value="Web前段开发工程师"/><button class="btn">复制</button>
+    </view>
+    <view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-spacing">
+        <view class="flex-wrp" style="flex-direction:row;">
+          <view class="flex-item demo-text-1"><image src="./images/电话.jpg" class="pn1"></image></view>
+          <view class="flex-item demo-text-2"><image src="./images/分享.jpg" class="pn2"></image></view>
+          <view class="flex-item demo-text-3"><image src="./images/海报.jpg" class="pn3"></image></view>
+        </view>
+        <view class="flex-wrp" style="flex-direction:row;">
+          <view class="flex-item demo-text-1"><view class="in1">保存电话</view></view>
+          <view class="flex-item demo-text-2"><view class="in2">分享好友</view></view>
+          <view class="flex-item demo-text-3"><view class="in3">生成海报</view></view>
+        </view>
+      </view>
+    </view>
+    </view>
+    </view>
+</view>
+
+</view>

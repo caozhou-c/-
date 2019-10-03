@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home/home",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "曹周的个人简历",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home/home",
+        "iconPath":"images/名片.jpg",
+        "selectedIconPath":"images/名片.jpg",
+        "text": "名片"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/项目.jpg",
+        "selectedIconPath": "images/项目.jpg",
+        "text": "项目"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/简历.jpg",
+        "selectedIconPath": "images/简历.jpg",
+        "text": "简历"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "sitemapLocation": "sitemap.json"
+}
